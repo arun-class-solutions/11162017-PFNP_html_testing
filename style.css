@@ -1,0 +1,28 @@
+body {
+  background-color: blue;
+}
+
+#title {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.spinny-box {
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  border: black 1px solid;
+  transition: all 0.5s ease-in-out;
+}
+
+.red-box {
+  background-color: red;
+}
+
+/*Hover state to rotate the boxes*/
+
+.spinny-box:hover {
+  transform: rotate(360deg);
+  transition: all 0.5s ease-in-out;
+}
